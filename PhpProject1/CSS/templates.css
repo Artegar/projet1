@@ -30,9 +30,9 @@ body{
 
 #logo{
    background-image: url('../img/logofini.png');
-   background-size: 300px 300px;
+   background-size: 200px 200px;
    background-repeat: no-repeat;
- 
+  top: -50px;
    width: 300px;
    height: 300px;
    position:absolute;
