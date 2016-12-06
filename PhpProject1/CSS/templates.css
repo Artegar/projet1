@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 nov. 2016, 14:29:16
+    Author     : ycolin
+*/
+
+
+
+html {
+ 
+ background: url('../img/fond1.png')no-repeat ;   
+ background-size: cover ;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size:cover;
+width: 100%;
+height: 100%;
+}
+body{
+   
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+#logo{
+   background-image: url('../img/logofini.png');
+   background-size: 300px 300px;
+   background-repeat: no-repeat;
+ 
+   width: 300px;
+   height: 300px;
+   position:absolute;
+   z-index: 3;
+
+}
+
+
+
+.accueil {
+  border-width: 1px;
+  border-color: green;
+  border-style: dashed;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+position:absolute;
+  left: 300px;
+  top: 0px;
+  width: 245px;
+  height: 74px;
+  z-index: 25;
+    text-decoration: none;
+  text-align:center;
+vertical-align:middle;
+color: green;
+font: 40px comic sans ms bold;
+}
+
+.accueil:hover{
+     color: green;
+     background: green;
+     background: linear-gradient( #777, #333);
+}
+.accueil:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4)
+}
+
+.bibliotheque {
+  cursor:pointer;
+  border-width: 1px;
+  border-color: rgb(19, 19, 19);
+  border-style: dashed;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 550px;
+  top: 0px;
+  width: 245px;
+  height: 74px;
+  z-index: 25;
+  text-decoration: none;
+  text-align:center;
+vertical-align:middle;
+color: white;
+font: 40px comic sans ms bold;
+}
+.bibliotheque:hover{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+.bibliotheque:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4)
+}
+
+.emission {
+  border-width: 1px;
+  border-color: rgb(19, 19, 19);
+  border-style: dashed;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 805px;
+  top: 0px;
+  width: 245px;
+  height: 74px;
+  z-index: 25;
+    text-decoration: none;
+  text-align:center;
+vertical-align:middle;
+color: white;
+font: 40px comic sans ms bold;
+}
+.emission:hover{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+.emission:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4)
+}
+
+.contact {
+  border-width: 1px;
+  border-color: rgb(25, 19, 19);
+  border-style: dashed;
+  background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  left: 1055px;
+  top: 0px;
+  width: 245px;
+  height: 74px;
+  z-index: 25;
+    text-decoration: none;
+  text-align:center;
+vertical-align:middle;
+color: white;
+font: 40px comic sans ms bold;
+}
+.contact:hover{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+.contact:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4)
+}
+
+#carousel{
+    z-index: 30;
+    
+}
+
+#container{
+
+    left: 800px;
+    
+    top: 160px;
+    position: absolute;
+    z-index: 40;
+    
+}
