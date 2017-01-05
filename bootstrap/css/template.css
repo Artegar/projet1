@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 déc. 2016, 09:24:56
+    Author     : ycolin
+*/
+body{
+ margin:0;
+  padding:0;
+  background: url('../img/fond1.png') no-repeat center fixed; 
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.container-fluid{ 
+ 
+    width:100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container-fluid .fond{
+    width: inherit;
+   background-size: cover;
+}
+/* navigation et logo*/
+
+nav{
+ 
+padding-right: 15px;
+
+
+}
+nav img{
+    padding-bottom: 0px;
+}
+nav ul {
+    
+    float:right;
+    list-style-type: none;
+    margin-top: 100px;
+    display: block;
+}
+nav li{
+    float: left;
+    padding-right: 130px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover a{
+    text-decoration: none;
+    color: white;
+}
+/*Carousel et actualité*/
+.slider{
+    padding-top: 0;
+}
+p{
+    color: white;
+}
+.actualite ul{
+    list-style-type: none;
+    padding-top: 180px;
+}
+/*fin carousel et actualité*/
+
+/*a l'affiche cette semaine*/
+.affiche{
+    margin-top: 15px;
+    padding-top: 20px;
+    
+}
+.affiche ul{
+    list-style-type: none;
+    display: block;
+}
+.affiche li{
+    float:left;
+    padding-right: 15px;
+}
+.affiche .synopsis{
+    color: white;
+}
+
+/*suggestion de la semaine*/
+.suggestion{
+    padding-top: 100px;
+}
+.suggestion ul{
+    list-style-type: none;
+    display: block;
+}
+.suggestion li{
+    float:left;
+    padding-right: 15px;
+}
+.suggestion .synopsis{
+    color: white;
+}
+
+/*Bibliothèque*/
+.fiche h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.action, .aventure, .thriller, .policier, .biopic, .animation, .horreur, .comedie, .suspens{
+    padding-top: 50px;
+} 
+
+.fiche img{
+    padding-left: 15px;
+}
+
+/*emission*/
+.emission{
+    padding-top: 30px;
+    padding-right: 15px;
+}
+.emission p{
+    color: white;
+}
+
+/*contact*/
+.contact{
+    padding-top: 100px;
+}
+.checkbox{
+    color: white;
+}
+
+/*footer*/
+
+footer ul {
+    
+    float:left;
+    list-style-type: none;
+    
+    display: block;
+}
+
+
+footer li a{
+    text-decoration: none;
+}
+footer li:hover a{
+    text-decoration: none;
+    color: white;
+}
+
+/*mention légales*/
+.mention{
+    color: white;
+}
+.mention a{
+    color:black;
+}
+
+/*plan du site*/
+.plan a{
+    color:black;
+}
